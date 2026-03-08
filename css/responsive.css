@@ -1,0 +1,80 @@
+/* *=====================
+    Media Queries 
+=========================*/
+
+/* *=====================
+    Desktop
+=========================*/
+@media (max-width: 1536px) {
+  .container {
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+  }
+
+  /* *SKILLS* */
+}
+
+/* *=====================
+      Tablet & small laptop
+  =========================*/
+
+@media (max-width: 1280px) {
+  .container {
+  }
+
+  section {
+  }
+
+  /** Header **/
+  .header__container {
+  }
+
+  .header__column--left {
+  }
+
+  .header__content--left {
+  }
+
+  .header__column--right {
+  }
+}
+
+/* *=====================
+     Small Tablet - landscape mode
+  =========================*/
+@media (max-width: 768px) {
+  .container {
+  }
+
+  /** ABOUT ME **/
+  .aboutMe__section {
+  }
+
+  /** SKILLS **/
+  .skills__grid_container {
+  }
+}
+
+/* *=====================
+     Phone
+  =========================*/
+@media (max-width: 640px) {
+  :root {
+  }
+
+  .container {
+  }
+
+  .section__title {
+  }
+
+  /** Header **/
+
+  header {
+  }
+
+  /** ABOUT ME **/
+}

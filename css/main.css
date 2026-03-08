@@ -1,0 +1,196 @@
+@import "theme.css";
+@import "./sections/header.css";
+@import "./sections/about-me.css";
+@import "./sections/skill.css";
+@import "./sections/project.css";
+@import "./sections/contact.css";
+@import "./sections/footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+  letter-spacing: var(--p-letter-spacing);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header */
+.header__container {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header_left {
+  background-color: lightblue;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.logo {
+  display: block;
+  margin-left: 50px;
+}
+
+.header_right {
+  background-color: lightgreen;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--p-20);
+  padding: 8px 0;
+  display: inline-block;
+}
+
+.theme-toggle {
+  background-color: rgb(23, 24, 62);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 5px 6px 5px;
+}
+
+/* Hero Section */
+
+.hero__container {
+  height: 100vh;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.hero__avatar {
+  width: 118px;
+  height: 118px;
+  background-image: url(../assets/avatar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #6366f1;
+  box-shadow:
+    inset 0px -1px hsla(0, 0%, 100%, 0.5),
+    0 4px 6px -1px hsla(0, 0%, 0%, 0.2),
+    0 2px 4px -2px hsla(0, 0%, 0%, 0.2),
+    inset 0px 1px 3px hsla(0, 0%, 0%, 0.1);
+}
+
+.hero__name {
+  font-size: var(--h1-font-size);
+  font-weight: bold;
+}
+
+.hero__role {
+  font-size: var(--h3-font-size);
+}
+
+.hero__description {
+  font-size: var(--h4-font-size);
+  line-height: var(--h4-line-height);
+}
+
+.hero__button {
+  display: flex;
+  gap: 10px;
+}
+
+.hero__button button {
+  padding: 10px 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero__links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero__icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #161639;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.hero__icon:hover {
+  transform: translateY(-3px);
+  background: #6366f1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero__scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-arrow i {
+  color: #333;
+  font-size: 24px;
+  animation: scrollDown 1.5s infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
