@@ -1,0 +1,46 @@
+.aboutMe__section {
+  margin-top: 50px;
+}
+
+.aboutMe__title {
+  display: flex;
+  justify-content: center;
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.aboutMe__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutMe__row-left {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-img {
+  width: 400px;
+  height: 550px;
+  background-image: url(../../assets/cat3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.aboutMe__row-right {
+  padding: 50px;
+}
+
+.description-txt {
+  max-width: 500px;
+
+  & p {
+    font-size: var(--p-font-size);
+    margin-bottom: 20px;
+  }
+}

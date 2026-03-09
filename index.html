@@ -24,6 +24,9 @@
     />
   </head>
   <body>
+    <!--------------- 
+      Header
+    ----------------->
     <header class="header">
       <!--Block__Element--Modify-->
       <div class="container header__container">
@@ -43,50 +46,372 @@
           </nav>
         </div>
       </div>
+    </header>
 
-      <!-- hero -->
-      <div class="container hero__container">
-        <div class="hero__content">
-          <div class="hero__avatar"></div>
-          <div class="hero__name">Trần Đình Khánh</div>
-          <div class="hero__role">Frontend Developer</div>
-          <div class="hero__description">
-            Lorem, ipsum dolor sit Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Illum voluptatibus, enim veniam mollitia nam
-            consequuntur dicta amet omnis beatae qui ipsum doloribus vero id
-            laboriosam at. Quasi quos unde nesciunt.
-          </div>
-        </div>
-
-        <div class="hero__button">
-          <div class="download__button">
-            <button>Download CV</button>
-          </div>
-          <div class="contact__button">
-            <button>Contact me</button>
-          </div>
-        </div>
-
-        <div class="hero__links">
-          <a href="https://github.com/" class="hero__icon">
-            <i class="fa-brands fa-github"></i>
-          </a>
-
-          <a href="https://facebook.com/" class="hero__icon">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-
-          <a href="mailto:yourmail@gmail.com" class="hero__icon">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-        </div>
-
-        <div class="hero__scroll">
-          <a href="#about">
-            <span class="scroll-arrow"><i class="fa-solid fa-arrow-down"></i></span>
-          </a>
+    <!-- Hero section -->
+    <section id="hero" class="hero__section">
+      <div class="hero__content">
+        <div class="hero__avatar"></div>
+        <div class="hero__name">Trần Đình Khánh</div>
+        <div class="hero__role">Frontend Developer</div>
+        <div class="hero__description">
+          Lorem, ipsum dolor sit Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Illum voluptatibus, enim veniam mollitia nam
+          consequuntur dicta amet omnis beatae qui ipsum doloribus vero id
+          laboriosam at. Quasi quos unde nesciunt.
         </div>
       </div>
-    </header>
+
+      <div class="hero__button">
+        <div class="download__button">
+          <button>Download CV</button>
+        </div>
+        <div class="contact__button">
+          <button>Contact me</button>
+        </div>
+      </div>
+
+      <div class="hero__links">
+        <a href="https://github.com/" class="hero__icon">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://facebook.com/" class="hero__icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="mailto:yourmail@gmail.com" class="hero__icon">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <div class="hero__scroll">
+        <a href="#about">
+          <span class="scroll-arrow"
+            ><i class="fa-solid fa-arrow-down"></i
+          ></span>
+        </a>
+      </div>
+    </section>
+
+    <!--------------------------------- 
+      About Me 
+    ----------------------------------->
+    <section id="aboutMe" class="aboutMe__section">
+      <div class="aboutMe__title">
+        <div class="title">About Me</div>
+        <div class="description"></div>
+      </div>
+      <div class="aboutMe__row">
+        <div class="aboutMe__row-left">
+          <div class="profile-img"></div>
+        </div>
+        <div class="aboutMe__row-right">
+          <div class="description-txt">
+            <p>
+              Hi! I'm Alex, a passionate frontend developer with 5+ years of
+              experience building web applications. I specialize in creating
+              intuitive, user-friendly interfaces that combine beautiful design
+              with robust functionality.
+            </p>
+            <p>
+              My journey in web development started with a curiosity about how
+              websites work, and it has evolved into a career focused on
+              creating exceptional digital experiences. I love the challenge of
+              turning complex problems into simple, elegant solutions.
+            </p>
+            <p>
+              When I'm not coding, you'll find me contributing to open-source
+              projects, writing technical articles, or exploring the latest
+              frontend technologies and design trends.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------- 
+      Skill 
+    ----------------------------------->
+    <section id="skills" class="skills__section">
+      <div class="skills__title">
+        <div class="title">Skills</div>
+        <div class="description"></div>
+      </div>
+      <div class="skills__grid">
+        <!-- grid item 1 -->
+        <div class="skills__grid_item"></div>
+        <!-- grid item 2 -->
+        <div class="skills__grid_item">
+          <div class="skills__grid_item_header">
+            <div>
+              <img src="./assets/check-icon.svg" alt="check-icon" />
+              <h2>Công cụ & Công nghệ</h2>
+            </div>
+            <p>
+              Thành thạo nhiều công cụ lập trình web hiện đại, có kinh nghiệm
+              xây dựng các ứng dụng web tương tác, thân thiện với người dùng và
+              đam mê viết mã sạch, dễ bảo trì.
+            </p>
+          </div>
+
+          <!-- skill logos -->
+          <div>
+            <!-- list 1 -->
+            <div class="icons-list-wrapper">
+              <div class="icons-list">
+                <div class="icon-badges">
+                  <img src="./assets/icons/C.svg" alt="C icon" />
+                  <span>C</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/github.svg" alt="github icon" />
+                  <span>github</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/css.svg" alt="CSS icon" />
+                  <span>CSS</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/java.svg" alt="java icon" />
+                  <span>java</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/html.svg" alt="html icon" />
+                  <span>html</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                  <span>node js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/JS.svg" alt="js icon" />
+                  <span>js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/react.svg" alt="react icon" />
+                  <span>react</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img
+                    src="./assets/icons/postgresql.svg"
+                    alt="postgresql icon"
+                  />
+                  <span>postgresql</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                  <span>nextjs</span>
+                </div>
+              </div>
+
+              <div class="icons-list">
+                <div class="icon-badges">
+                  <img src="./assets/icons/C.svg" alt="C icon" />
+                  <span>C</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/github.svg" alt="github icon" />
+                  <span>github</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/css.svg" alt="CSS icon" />
+                  <span>CSS</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/java.svg" alt="java icon" />
+                  <span>java</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/html.svg" alt="html icon" />
+                  <span>html</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                  <span>node js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/JS.svg" alt="js icon" />
+                  <span>js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/react.svg" alt="react icon" />
+                  <span>react</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img
+                    src="./assets/icons/postgresql.svg"
+                    alt="postgresql icon"
+                  />
+                  <span>postgresql</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                  <span>nextjs</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- list 2 -->
+            <div class="icons-list-wrapper">
+              <div class="icons-list">
+                <div class="icon-badges">
+                  <img src="./assets/icons/C.svg" alt="C icon" />
+                  <span>C</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/github.svg" alt="github icon" />
+                  <span>github</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/css.svg" alt="CSS icon" />
+                  <span>CSS</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/java.svg" alt="java icon" />
+                  <span>java</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/html.svg" alt="html icon" />
+                  <span>html</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                  <span>node js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/JS.svg" alt="js icon" />
+                  <span>js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/react.svg" alt="react icon" />
+                  <span>react</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img
+                    src="./assets/icons/postgresql.svg"
+                    alt="postgresql icon"
+                  />
+                  <span>postgresql</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                  <span>nextjs</span>
+                </div>
+              </div>
+
+              <div class="icons-list">
+                <div class="icon-badges">
+                  <img src="./assets/icons/C.svg" alt="C icon" />
+                  <span>C</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/github.svg" alt="github icon" />
+                  <span>github</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/css.svg" alt="CSS icon" />
+                  <span>CSS</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/java.svg" alt="java icon" />
+                  <span>java</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/html.svg" alt="html icon" />
+                  <span>html</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                  <span>node js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/JS.svg" alt="js icon" />
+                  <span>js</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img src="./assets/icons/react.svg" alt="react icon" />
+                  <span>react</span>
+                </div>
+
+                <div class="icon-badges">
+                  <img
+                    src="./assets/icons/postgresql.svg"
+                    alt="postgresql icon"
+                  />
+                  <span>postgresql</span>
+                </div>
+                <div class="icon-badges">
+                  <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                  <span>nextjs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- grid item 3 -->
+        <div class="skills__grid_item">
+          <div class="skills__grid_item_header">
+            <div>
+              <img src="./assets/check-icon.svg" alt="check icon" />
+              <h2>Kỹ Năng Mềm</h2>
+            </div>
+            <p>
+              Kỹ năng giao tiếp, cộng tác, và giải quyết vấn đề xuất sắc, với
+              thái độ chủ động và ham học hỏi, dễ dàng thích nghi trong môi
+              trường làm việc nhóm năng động.
+            </p>
+          </div>
+
+          <div class="softSkills__container">
+            <div class="softSkills_badge">
+              <p>Giao tiếp chuyên nghiệp</p>
+            </div>
+
+            <div class="softSkills_badge">
+              <p>Quản lý thời gian hiệu quả</p>
+            </div>
+            <div class="softSkills_badge">
+              <p>Đáng tin cậy</p>
+            </div>
+            <div class="softSkills_badge">
+              <p>Ham học hỏi</p>
+            </div>
+
+            <div class="softSkills__book_icons">
+              <img src="./assets/closed-book.svg" alt="closed book icon" />
+              <img src="./assets/closed-book.svg" alt="closed book icon" />
+              <img src="./assets/closed-book.svg" alt="closed book icon" />
+              <img src="./assets/closed-book.svg" alt="closed book icon" />
+            </div>
+          </div>
+        </div>
+        <!-- grid item 4 -->
+        <div class="skills__grid_item"></div>
+      </div>
+    </section>
   </body>
 </html>

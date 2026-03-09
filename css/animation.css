@@ -1,0 +1,31 @@
+@keyframes move-left {
+  to {
+    transform: translateX(calc(-100% - 12px));
+  }
+}
+
+@-webkit-keyframes move-left {
+  to {
+    transform: translateX(calc(-100% - 12px));
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(calc(0% + 12px));
+  }
+}
+
+@-webkit-keyframes move-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(calc(0% + 12px));
+  }
+}
